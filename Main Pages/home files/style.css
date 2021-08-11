@@ -1,0 +1,489 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/1th.ttf);
+}@font-face {
+    font-family: font2;
+    src: url(fonts/2th.ttf);
+}@font-face {
+    font-family: font3;
+    src: url(fonts/3th.ttf);
+}@font-face {
+    font-family: font4;
+    src: url(fonts/4th.ttf);
+}@font-face {
+    font-family: font5;
+    src: url(fonts/5th.ttf);
+}@font-face {
+    font-family: font6;
+    src: url(fonts/6th.ttf);
+}@font-face {
+    font-family: font7;
+    src: url(fonts/7th.ttf);
+}@font-face {
+    font-family: font8;
+    src: url(fonts/8th.ttf);
+}@font-face {
+    font-family: font9;
+    src: url(fonts/9th.ttf);
+}@font-face {
+    font-family: font10;
+    src: url(fonts/10th.ttf);
+}@font-face {
+    font-family: font11;
+    src: url(fonts/11th.ttf);
+}@font-face {
+    font-family: font12;
+    src: url(fonts/12th.ttf);
+}@font-face {
+    font-family: font13;
+    src: url(fonts/13th.ttf);
+}@font-face {
+    font-family: font14;
+    src: url(fonts/14th.ttf);
+}@font-face {
+    font-family: font15;
+    src: url(fonts/15th.ttf);
+}@font-face {
+    font-family: font16;
+    src: url(fonts/16th.ttf);
+}@font-face {
+    font-family: font17;
+    src: url(fonts/17th.ttf);
+}@font-face {
+    font-family: font18;
+    src: url(fonts/18th.ttf);
+}@font-face {
+    font-family: font19;
+    src: url(fonts/19th.ttf);
+}@font-face {
+    font-family: font20;
+    src: url(fonts/20th.ttf);
+}
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url('bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.noman{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    font-size: 8vw;
+    letter-spacing: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+.one, .two, .three, .four, .five{
+    padding-top: 130px;
+    width: 100px;
+}
+
+P{
+    margin-top: 95px;
+    margin-bottom: 70px;
+    font-size: 1.4vw;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+}
+ul{
+    width: 75vw;
+    height: 65px;
+    margin-top: 30px;
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+ul li{
+    font-size: 1.5vw;
+    width:  14%;
+    height: 25px;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+ul li:hover {
+    border: 3px double #dadce0;
+    transition-duration: 0.5s;
+   letter-spacing: 3px;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+   border: none;
+   background-color: #dadce0;
+   height: 2px;
+   width: 75vw;
+   margin: auto;
+}
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('../home files/pre-loader.gif');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    z-index: 999999;
+}
+/* NOMAN Style */
+
+.one{
+    animation: one 23s linear 999;
+    transition-duration: 0s;
+}.two{
+    animation: two 23s linear 999;
+}.three{
+    animation: three 23s linear 999;
+}.four{
+    animation: four 23s linear 999;
+}.five{
+    animation: five 23s linear 999;
+}
+
+
+@keyframes one {
+    5%{
+        font-family: font1;
+        font-size: 13vw;
+    }10%{
+        font-family: font2;
+        font-size: 8vw;
+    }15%{
+        font-family: font3;
+        font-size: 13vw;
+    }20%{
+        font-family: font4;
+        font-size: 8vw;
+    }25%{
+        font-family: font5;
+        font-size: 13vw;
+    }30%{
+        font-family: font6;
+        font-size: 8vw;
+    }35%{
+        font-family: font7;
+        font-size: 13vw;
+    }40%{
+        font-family: font8;
+        font-size: 8vw;
+    }45%{
+        font-family: font9;
+        font-size: 13vw;
+    }50%{
+        font-family: font10;
+        font-size: 8vw;
+    }55%{
+        font-family: font11;
+        font-size: 13vw;
+    }60%{
+        font-family: font12;
+        font-size: 8vw;
+    }65%{
+        font-family: font13;
+        font-size: 13vw;
+    }70%{
+        font-family: font14;
+        font-size: 8vw;
+    }75%{
+        font-family: font15;
+        font-size: 13vw;
+    }80%{
+        font-family: font16;
+        font-size: 8vw;
+    }85%{
+        font-family: font17;
+        font-size: 13vw;
+    }90%{
+        font-family: font18;
+        font-size: 8vw;
+    }95%{
+        font-family: font19;
+        font-size: 13vw;
+    }100%{
+        font-family: font20;
+        font-size: 8vw;
+    }
+    
+}@keyframes three {
+    5%{
+        font-family: font1;
+        font-size: 13vw;
+    }10%{
+        font-family: font2;
+        font-size: 8vw;
+    }15%{
+        font-family: font3;
+        font-size: 13vw;
+    }20%{
+        font-family: font4;
+        font-size: 8vw;
+    }25%{
+        font-family: font5;
+        font-size: 13vw;
+    }30%{
+        font-family: font6;
+        font-size: 8vw;
+    }35%{
+        font-family: font7;
+        font-size: 13vw;
+    }40%{
+        font-family: font8;
+        font-size: 8vw;
+    }45%{
+        font-family: font9;
+        font-size: 13vw;
+    }50%{
+        font-family: font10;
+        font-size: 8vw;
+    }55%{
+        font-family: font11;
+        font-size: 13vw;
+    }60%{
+        font-family: font12;
+        font-size: 8vw;
+    }65%{
+        font-family: font13;
+        font-size: 13vw;
+    }70%{
+        font-family: font14;
+        font-size: 8vw;
+    }75%{
+        font-family: font15;
+        font-size: 13vw;
+    }80%{
+        font-family: font16;
+        font-size: 8vw;
+    }85%{
+        font-family: font17;
+        font-size: 13vw;
+    }90%{
+        font-family: font18;
+        font-size: 8vw;
+    }95%{
+        font-family: font19;
+        font-size: 13vw;
+    }100%{
+        font-family: font20;
+        font-size: 8vw;
+    }
+    
+}@keyframes five {
+    5%{
+        font-family: font1;
+        font-size: 13vw;
+    }10%{
+        font-family: font2;
+        font-size: 8vw;
+    }15%{
+        font-family: font3;
+        font-size: 13vw;
+    }20%{
+        font-family: font4;
+        font-size: 8vw;
+    }25%{
+        font-family: font5;
+        font-size: 13vw;
+    }30%{
+        font-family: font6;
+        font-size: 8vw;
+    }35%{
+        font-family: font7;
+        font-size: 13vw;
+    }40%{
+        font-family: font8;
+        font-size: 8vw;
+    }45%{
+        font-family: font9;
+        font-size: 13vw;
+    }50%{
+        font-family: font10;
+        font-size: 8vw;
+    }55%{
+        font-family: font11;
+        font-size: 13vw;
+    }60%{
+        font-family: font12;
+        font-size: 8vw;
+    }65%{
+        font-family: font13;
+        font-size: 13vw;
+    }70%{
+        font-family: font14;
+        font-size: 8vw;
+    }75%{
+        font-family: font15;
+        font-size: 13vw;
+    }80%{
+        font-family: font16;
+        font-size: 8vw;
+    }85%{
+        font-family: font17;
+        font-size: 13vw;
+    }90%{
+        font-family: font18;
+        font-size: 8vw;
+    }95%{
+        font-family: font19;
+        font-size: 13vw;
+    }100%{
+        font-family: font20;
+        font-size: 8vw;
+    }
+    
+}@keyframes two {
+    5%{
+        font-family: font20;
+        font-size: 8vw;
+    }10%{
+        font-family: font1;
+        font-size: 13vw;
+    }15%{
+        font-family: font2;
+        font-size: 8vw;
+    }20%{
+        font-family: font3;
+        font-size: 13vw;
+    }25%{
+        font-family: font4;
+        font-size: 8vw;
+    }30%{
+        font-family: font5;
+        font-size: 13vw;
+    }35%{
+        font-family: font6;
+        font-size: 8vw;
+    }40%{
+        font-family: font7;
+        font-size: 13vw;
+    }45%{
+        font-family: font8;
+        font-size: 8vw;
+    }50%{
+        font-family: font9;
+        font-size: 13vw;
+    }55%{
+        font-family: font10;
+        font-size: 8vw;
+    }60%{
+        font-family: font11;
+        font-size: 13vw;
+    }65%{
+        font-family: font12;
+        font-size: 8vw;
+    }70%{
+        font-family: font13;
+        font-size: 13vw;
+    }75%{
+        font-family: font14;
+        font-size: 8vw;
+    }80%{
+        font-family: font15;
+        font-size: 13vw;
+    }85%{
+        font-family: font16;
+        font-size: 8vw;
+    }90%{
+        font-family: font17;
+        font-size: 13vw;
+    }95%{
+        font-family: font18;
+        font-size: 8vw;
+    }100%{
+        font-family: font29;
+        font-size: 13vw;
+    }
+    
+}@keyframes four {
+    5%{
+        font-family: font20;
+        font-size: 8vw;
+    }10%{
+        font-family: font1;
+        font-size: 13vw;
+    }15%{
+        font-family: font2;
+        font-size: 8vw;
+    }20%{
+        font-family: font3;
+        font-size: 13vw;
+    }25%{
+        font-family: font4;
+        font-size: 8vw;
+    }30%{
+        font-family: font5;
+        font-size: 13vw;
+    }35%{
+        font-family: font6;
+        font-size: 8vw;
+    }40%{
+        font-family: font7;
+        font-size: 13vw;
+    }45%{
+        font-family: font8;
+        font-size: 8vw;
+    }50%{
+        font-family: font9;
+        font-size: 13vw;
+    }55%{
+        font-family: font10;
+        font-size: 8vw;
+    }60%{
+        font-family: font11;
+        font-size: 13vw;
+    }65%{
+        font-family: font12;
+        font-size: 8vw;
+    }70%{
+        font-family: font13;
+        font-size: 13vw;
+    }75%{
+        font-family: font14;
+        font-size: 8vw;
+    }80%{
+        font-family: font15;
+        font-size: 13vw;
+    }85%{
+        font-family: font16;
+        font-size: 8vw;
+    }90%{
+        font-family: font17;
+        font-size: 13vw;
+    }95%{
+        font-family: font18;
+        font-size: 8vw;
+    }100%{
+        font-family: font29;
+        font-size: 13vw;
+    }
+    
+}

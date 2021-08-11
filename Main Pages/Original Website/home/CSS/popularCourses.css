@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.popular-courses{
+    width: 100%;
+    height: max-content;
+    background-color: #ebf8ed;
+}
+.popular-courses-heading{
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+
+}
+.headings{
+    width: 46vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.headings button{
+    width: 120px;
+    height: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #0f163b;
+    border: none;
+    outline: none;
+    border-radius: none;
+}
+.headings button:hover{
+    color: #50be46;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #50be46;
+}
+.headings button.active {
+    color: #50be46;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #50be46 !important;
+}
+
+
+
+.all-popular-courses{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.tabcontent{
+    width: 55vw;
+    margin: auto;
+    display: none;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+}
+.one, .two, .three, .four, .five, .six{
+    width: 220px;
+    height: 230px;
+    color: #50be46c7;
+    background-color: #effefb;
+    border:  1px solid #cbe4df;
+}.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover{
+    transition-duration: 0.3s;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #0f163b;
+    background-color: #50be46c7;
+    border:  2px solid #cbe4df;
+}
+.one img, .two img, .three img, .four img, .five img, .six img{
+    width: 100%;
+}
+.one p, .two p, .three p, .four p, .five p, .six p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+
+}
+.choose-course{
+    width: 55vw;
+    margin: auto;
+}
+#choose-course{
+    display: flex;
+}
+
+
+
+/* Move to top */fdgnnnnnnnnnnnnnnnnnnnnnnnnnnnnnd
+
+div[class*=container] {
+    text-align: center;
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .container-2 { background: #4E598C; }
+  
+  
+  /*
+   BUTTON STYLING
+  */
+  
+  .btn {
+    position: relative;
+    color: white;
+    width: 56px;
+    height: 54px;
+    line-height: 54px;
+    transition: all 0.3s;
+    position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+  }
+  .container-2 span {
+    transition: all 0.3s;
+    color: #f96922;
+  }
+  
+  .container-2 .btn::before, .container-2 .btn::after {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  /* BTN TWO */
+  .container-2 .btn-two::before, .container-2 .btn-two::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+      height: 100%;
+    bottom: 0;
+      left: 0;
+      z-index: 1;
+    transition: all 0.3s;
+    border-bottom: 2px solid #0f163b;
+    border-left: 2px solid #0f163b;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+  }
+  
+  .container-2 .btn-two:hover::after {
+    animation-name: rotatecw;
+    animation-duration: 2s;
+  }
+  .container-2 .btn-two:hover::before {
+    animation-name: rotateccw; 
+    animation-duration: 3s;
+  }
+  .container-2 .btn-two:hover::after, .container-2 .btn-two:hover::before {
+    left: 0px;
+    width: 54px;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotatecw {
+      from {transform: rotate(0deg)}
+      to {transform: rotate(360deg);}
+  }
+  
+  @keyframes rotateccw {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(-360deg)}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

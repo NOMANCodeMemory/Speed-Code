@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* body{
+    background: url('https://media.giphy.com/media/i4jKn7itdV2Tvjzj6Y/giphy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+} */
+ul{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+/* header portion */
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #effaf3;
+}
+.full-width-header{
+    width: 100%;
+    height: 45px;
+    background-color: #0f163b;
+}
+.top-header{
+    width: 75vw;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* left header portion */
+.top-left-header{
+    width: 27vw;
+    display: flex;
+    justify-content: space-between;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.phone-No{
+    width: 40%;
+    color: white;
+    font-size: 1.1vw;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-phone{
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    padding-top: 1px;
+    text-align: center;
+}
+.email{
+    width: 51%;
+    font-size: 1.1vw;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-envelope{
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 4px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+/* right header portion */
+.top-right-header{
+    width: 25vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.top-right-header a{
+    font-size: 1.5vw;
+    padding: 10px;
+    color: white;
+}
+.fa-facebook, .fa-youtube, .fa-code{
+    padding: 5px;
+    border-radius: 3px;
+}
+.fa-facebook:hover, .fa-youtube:hover, .fa-code:hover{
+    background-color: #6d717494;
+    color: white;
+}
+/* lower logo name */
+.lower-header{
+    width: 75vw;
+    height: 90vh;
+    margin: auto;
+}
+.logo-name{
+    width: 220px;
+    padding-top: 20px;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-name img{
+    width: 50px;
+    height: 50px;
+}
+.logo-name h1{
+    font-size: 2vw !important;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* lower header */
+.bottom-header{
+    width: 100%;
+    height: 455px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-header-left-text{
+         font-size: 3vw;
+         width: 450px;
+         margin-left: 120px;
+         color: #0f163b;
+         font-weight: bolder;
+         text-align: left;
+}
+.bottom-header-right-pic img{
+    width: 530px;
+    height: 530px;
+    padding: 0px;
+}
+.strart-course{
+    width: 110px;
+    height: 35px;
+    text-align: center;
+    padding: 7px;
+    background-color: #50be46;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.strart-course a{
+    color: #0f163b;
+}.strart-course a:hover{
+    transition-duration: 0.3s;
+    color: white;
+}
+.strart-course:hover{
+    transition-duration: 0.3s;
+    letter-spacing: 1px;
+    color: white;
+    background-color: green;
+}
+/* last three box portion */
+.header-last-box{
+    width: 56vw;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-last-box-topics, .header-last-box-instructor, .header-last-box-journey{
+    width: 235px;
+    height: 60px;
+    font-size: 1vw;
+    color: #0f163b;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 8px rgba(170, 170, 170, 0.26), inset 0px 2px 3px #fff;
+}
+.header-last-box-topics{
+   background-color: #effefb;
+}
+.header-last-box-instructor{
+    background-color: #fffcf6;
+}
+.header-last-box-journey{
+    background-color: #f9f8ff;
+}
+.header-last-box-topics:hover, .header-last-box-instructor:hover, .header-last-box-journey:hover{
+    background-color: rgba(182, 170, 170, 0.363);
+    transition-duration: 0.5s;
+}
+.last-three-boxes-text{
+    text-align: center !important;
+    padding-left: 5px !important;
+    
+}
